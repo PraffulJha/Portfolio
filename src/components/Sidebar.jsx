@@ -8,7 +8,7 @@ import Home from "./Home";
 
 function Sidebar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
-  const [activeSection, setActiveSection] = useState("experience");
+  const [activeSection, setActiveSection] = useState("home");
 
   // Data for sections
   const sectionData = {
