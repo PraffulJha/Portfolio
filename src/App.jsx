@@ -1,11 +1,15 @@
 import React from 'react';
 import Sidebar from './components/Sidebar';
+import Contact from './components/Contact';
+import Home from './components/Home';
 function App() {
 
   return (
-   <div className='h-screen bg-black overflow-auto'>
-    <Sidebar /> 
-   </div>
+   <>
+    <Home />
+    <Contact />
+   
+   </>
   );
 }
 
