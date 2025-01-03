@@ -2,6 +2,7 @@ import React from 'react';
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../constant/Constant';
 import ProfileAnimation from '../animations/ProfileAnimation';
+import ProfileImage from '../assets/ProfileImage.jpg'
 
 const Profile = () => {
   return (
@@ -39,7 +40,7 @@ const Profile = () => {
 
         <div id="Right" className="order-2 md:order-2 flex justify-center md:justify-end">
           <img
-            src=""
+            src={ProfileImage}
             alt="hero-image"
             className="relative w-64 h-64 md:w-96 md:h-96 rounded-full border-4 border-indigo-600 shadow-lg"
           />
