@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
-import { FaLinkedin, FaGithub, FaTwitter, FaInstagram } from "react-icons/fa";
-
+import { FaLinkedin, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Bio } from "../constant/Constant";
 function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -67,7 +67,7 @@ function Contact() {
               <h3 className="text-2xl font-bold text-white">Connect with me:</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://www.linkedin.com/in/prafful-jha-54b722171/"
+                  href={Bio.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-blue-600"
@@ -75,7 +75,7 @@ function Contact() {
                   <FaLinkedin size={24} />
                 </a>
                 <a
-                  href="https://github.com/your-profile"
+                  href={Bio.insta}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-white"
@@ -83,7 +83,7 @@ function Contact() {
                   <FaInstagram size={24} />
                 </a>
                 <a
-                  href="https://twitter.com/your-profile"
+                  href={Bio.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-400 hover:text-blue-400"
