@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/PraffulJha",
     resume:
-      "https://drive.google.com/file/d/1OkH3PZsiqcmMMr-BUPZRRqFEDtHtbCGj/view?usp=sharing",
+      "https://drive.google.com/file/d/1Tx_GEVqW0omDaKvieqbJ_cH2rcAdY3OD/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/prafful-jha-54b722171/",
     twitter: "https://x.com/PraffulJhaDev",
     insta: "https://www.instagram.com/PraffulJha78/"
@@ -153,37 +153,42 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Android Developer ",
-    company: "DeskFactors Technologies",
-    date: "March-2023-Present",
-    desc: "Working on Murphi.AI Core Components",
+    img: "http://res.cloudinary.com/dkxmrz3j0/image/upload/v1743186062/xitqgdcgtqsatpwkmz4r.png",
+    role: "Software Engineer - Android",
+    company: "DeskFactors Technologies (Murphi.AI)",
+    date: "March 2023 - Present",
+    desc: "Scaled Android apps using Clean Architecture, Jetpack Compose, and Kotlin Coroutines, improving performance by 30%. Engineered platform-agnostic solutions with RoomDB, Retrofit, and Hilt, and designed custom UI/UX components to enhance user interaction.",
     skills: [
-     "Java",
-     "Kotlin",
-     "Retrofit",
-     "Dragger-Hilt",
-     "Coroutines",
-     "Work Managers"
+      "Java",
+      "Kotlin",
+      "MVVM",
+      "Clean Architecture",
+      "Jetpack Libraries",
+      "Retrofit",
+      "Glide",
+      "Coroutines",
+      "Room DB",
+      "WorkManager"
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
+    //doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
   {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    id: 1,
+    img: "http://res.cloudinary.com/dkxmrz3j0/image/upload/v1743186263/c11wfijk8mpci9s3fghy.png",
     role: "Android Developer Intern",
     company: "VersionX",
-    date: "November 2023 - January 2024",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    date: "Nov 2022 - Feb 2023",
+    desc: "Optimized data structures using Firebase RealtimeDB and RoomDB, completing 10+ critical tasks for scalable app performance. Improved API communication by integrating multiple REST APIs using Retrofit, while gaining mentorship in Android development best practices.",
     skills: [
-     "Kotlin",
-     "Android Developer",
-
+      "Android",
+      "Firebase",
+      "RoomDB",
+      "Retrofit",
+      "API Integration"
     ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
- 
 ];
+
 
 export const education = [
   {
@@ -206,7 +211,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "",
+    img: "http://res.cloudinary.com/dkxmrz3j0/image/upload/v1743186528/tacz8ghtkzyi2iwvxdnf.jpg",
     school: "Vinyaas Public School,Kanpur",
     date: "Apr 2017 - Apr 2019",
     grade: "92.3%",
